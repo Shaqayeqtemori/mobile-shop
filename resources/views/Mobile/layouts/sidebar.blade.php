@@ -8,8 +8,8 @@
 </head>
 <body>
   <!-- Header -->
-  <header class="fixed top-0 inset-x-0 w-full bg-white z-[60] border-b-4 border-blue-500 p-2" style="border-color: rgba(9, 72, 238, 0.25);">
-    <div class="w-full px-3 sm:px-6 lg:px-8">
+  <header class="fixed top-0 inset-x-0 w-full bg-white z-[60] border-b-4 border-blue-500 p-2" style="border-color: rgba(9, 72, 238, 0.15);">
+    <div class="w-full  lg:px-2">
       <div class="h-16 flex items-center justify-between">
 
         <div class="flex items-center">
@@ -38,18 +38,18 @@
             </div>
           </div>
 
-          <button class="rounded-full bg-blue-100 border border-gray-200 p-2 hover:bg-gray-100 transition">
-            <img src="/img/Icon Frame (1).png" class="w-5 h-5" alt="plus" />
+          <button class="rounded-full bg-blue-100  p-1  transition">
+            <img src="/img/Icon Frame (1).png" class="w-6 h-6" alt="plus" />
           </button>
 
-          <button class="rounded-full border bg-blue-100 border-gray-200 p-2 hover:bg-gray-100 w-9 h-9 transition relative">
+          <button class="rounded-full bg-blue-100  w-8 h-8  transition relative">
             <i class="fa-regular fa-bell"></i>
             <span class="absolute -top-1 -right-1 bg-blue-500 text-white text-[10px] rounded-full px-1.5">3</span>
           </button>
 
           <!-- پروفایل -->
           <div class="relative">
-            <button id="profileButton" class="flex items-center border border-blue-600 rounded-full p-1 gap-2 focus:outline-none" aria-expanded="false" aria-haspopup="true">
+            <button id="profileButton" class="flex items-center border border-blue-600 rounded-full p-0.5 gap-2 focus:outline-none" aria-expanded="false" aria-haspopup="true">
               <img src="/img/avatar5 1.png" class="w-7 h-7 rounded-full object-cover" alt="user" />
             </button>
 
@@ -90,8 +90,8 @@
   <aside id="sidebar"
     class="fixed inset-y-0 right-0 z-40 w-48 bg-white shadow-md transform translate-x-full transition-transform duration-200 ease-out
            lg:static lg:translate-x-0 lg:flex lg:flex-col lg:w-52
-           border-l-4 border-blue-500 p-2"
-    style="border-color: rgba(9, 72, 238, 0.25);"
+           border-l-4 border-blue-500 p-2 lg:h-[1500px]:"
+    style="border-color: rgba(9, 72, 238, 0.15);"
     aria-label="Sidebar">
 
     <div class="h-16 flex items-center justify-end px-3">

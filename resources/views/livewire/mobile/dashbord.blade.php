@@ -1,15 +1,17 @@
 <div>
 
-<main class="lg:w-[700px] xl:w-[1400px] lg:h-[700px] xl:h-[1400px] mx-auto p-4 sm:p-6 font-yekan">
+
+
+<main class=" max-w-7xl mx-auto p-4 sm:p-6 ">
 
  <section class="grid grid-cols-1 lg:grid-cols-3 gap-5">
  
     <aside class="col-span-1 space-y-5">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
       
-        <div class="card-anim  bg-white shadow-lg rounded-xl border-r-4 border-b-4 border-blue-500 p-2 "style="border-color: rgba(9, 72, 238, 0.25);">
+        <div class="card-anim  bg-white shadow-lg rounded-xl border-r-4 border-b-4 border-blue-500 p-2 "style="border-color: rgba(9, 72, 238, 0.15);">
                 <div class=" flex items-end justify-between">
-          <p class="text-[12px] font-bold">تعداد کاربران</p>
+          <p class="text-sm font-bold">تعداد کاربران</p>
      <svg class="bg-pink-100 p-1 rounded-full" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M9.16006 10.87C9.06006 10.86 8.94006 10.86 8.83006 10.87C6.45006 10.79 4.56006 8.84 4.56006 6.44C4.56006 3.99 6.54006 2 9.00006 2C11.4501 2 13.4401 3.99 13.4401 6.44C13.4301 8.84 11.5401 10.79 9.16006 10.87Z" stroke="#FF00D4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M16.41 4C18.35 4 19.91 5.57 19.91 7.5C19.91 9.39 18.41 10.93 16.54 11C16.46 10.99 16.37 10.99 16.28 11" stroke="#FF00D4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -17,7 +19,7 @@
 <path d="M18.3401 20C19.0601 19.85 19.7401 19.56 20.3001 19.13C21.8601 17.96 21.8601 16.03 20.3001 14.86C19.7501 14.44 19.0801 14.16 18.3701 14" stroke="#FF00D4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
         </div>
-        <h3 class="text-sm mt-12 font-bold">10</h3>
+        <h3 class="text-xl mt-12 font-bold">10</h3>
         </div>
  <div class="card-anim bg-white shadow-lg rounded-xl border-r-4 border-b-4 border-blue-500 p-2 "style="border-color: rgba(9, 72, 238, 0.25);">
                 <div class=" flex items-end justify-between">
@@ -36,11 +38,11 @@
 </defs>
 </svg>
         </div>
-        <h3 class="text-sm mt-12 font-bold">200</h3>
+        <h3 class="text-xl mt-12 font-bold">200</h3>
         </div>
-                <div class="card-anim bg-white shadow-lg rounded-xl border-r-4 border-b-4 border-blue-500 p-2 "style="border-color: rgba(9, 72, 238, 0.25);">
+                <div class="card-anim bg-white shadow-lg rounded-xl border-r-4 border-b-4 border-blue-500 p-2 "style="border-color: rgba(9, 72, 238, 0.15);">
                 <div class=" flex items-end justify-between">
-          <p class=" text-[12px] font-bold"> قرضه ها</p>
+          <p class=" text-sm font-bold"> قرضه ها</p>
           <svg class="bg-red-200 p-1 rounded-full" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M9.5 13.7502C9.5 14.7202 10.25 15.5002 11.17 15.5002H13.05C13.85 15.5002 14.5 14.8202 14.5 13.9702C14.5 13.0602 14.1 12.7302 13.51 12.5202L10.5 11.4702C9.91 11.2602 9.51001 10.9402 9.51001 10.0202C9.51001 9.18023 10.16 8.49023 10.96 8.49023H12.84C13.76 8.49023 14.51 9.27023 14.51 10.2402" stroke="#FF0004" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 7.5V16.5" stroke="#FF0004" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -49,11 +51,11 @@
 <path d="M17 7L22 2" stroke="#FF0004" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
         </div>
-        <h3 class="text-sm mt-8 font-bold">75000؋</h3>
+        <h3 class="text-xl mt-8 font-bold">75000؋</h3>
         </div>
-        <div class="card-anim bg-white shadow-lg rounded-xl border-r-4 border-b-4 border-blue-500 p-2 "style="border-color: rgba(9, 72, 238, 0.25);">
+        <div class="card-anim bg-white shadow-lg rounded-xl border-r-4 border-b-4 border-blue-500 p-2 "style="border-color: rgba(9, 72, 238, 0.15);">
                 <div class=" flex items-end justify-between">
-          <p class=" text-sm"> مشتریان</p>
+          <p class=" text-sm font-bold"> مشتریان</p>
           <svg class="bg-purple-100 p-1 rounded-full" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M18.0001 7.16C17.9401 7.15 17.8701 7.15 17.8101 7.16C16.4301 7.11 15.3301 5.98 15.3301 4.58C15.3301 3.15 16.4801 2 17.9101 2C19.3401 2 20.4901 3.16 20.4901 4.58C20.4801 5.98 19.3801 7.11 18.0001 7.16Z" stroke="#5100FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M16.9699 14.4402C18.3399 14.6702 19.8499 14.4302 20.9099 13.7202C22.3199 12.7802 22.3199 11.2402 20.9099 10.3002C19.8399 9.59016 18.3099 9.35016 16.9399 9.59016" stroke="#5100FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -63,11 +65,11 @@
 <path d="M9.09021 17.7804C7.68021 18.7204 7.68021 20.2603 9.09021 21.2003C10.6902 22.2703 13.3102 22.2703 14.9102 21.2003C16.3202 20.2603 16.3202 18.7204 14.9102 17.7804C13.3202 16.7204 10.6902 16.7204 9.09021 17.7804Z" stroke="#5100FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
         </div>
-        <h3 class="text-sm mt-8 font-bold">100</h3>
+        <h3 class="text-xl mt-8 font-bold">100</h3>
         </div>
-        <div class="card-anim bg-white shadow-lg rounded-xl border-r-4 border-b-4 border-blue-500 p-2 "style="border-color: rgba(9, 72, 238, 0.25);">
+        <div class="card-anim bg-white shadow-lg rounded-xl border-r-4 border-b-4 border-blue-500 p-2 "style="border-color: rgba(9, 72, 238, 0.15);">
                 <div class=" flex items-end justify-between">
-          <p class=" text-[12px] font-bold"> درآمد روزانه</p>
+          <p class=" text-sm font-bold"> درآمد روزانه</p>
  <svg class="bg-purple-200 p-1 rounded-full" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M9.5 13.7502C9.5 14.7202 10.25 15.5002 11.17 15.5002H13.05C13.85 15.5002 14.5 14.8202 14.5 13.9702C14.5 13.0602 14.1 12.7302 13.51 12.5202L10.5 11.4702C9.91 11.2602 9.51001 10.9402 9.51001 10.0202C9.51001 9.18023 10.16 8.49023 10.96 8.49023H12.84C13.76 8.49023 14.51 9.27023 14.51 10.2402" stroke="#31009B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 7.5V16.5" stroke="#31009B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -76,24 +78,24 @@
 <path d="M22 2L17 7" stroke="#31009B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
         </div>
-        <h3 class="text-sm mt-8 font-bold">75000؋</h3>
+        <h3 class="text-xl mt-8 font-bold">75000؋</h3>
         </div>
-        <div class="card-anim bg-white shadow-lg rounded-xl border-r-4 border-b-4 border-blue-500 p-2 "style="border-color: rgba(9, 72, 238, 0.25);">
+        <div class="card-anim bg-white shadow-lg rounded-xl border-r-4 border-b-4 border-blue-500 p-2 "style="border-color: rgba(9, 72, 238, 0.15);">
                 <div class=" flex items-end justify-between">
-          <p class="text-[12px] font-bold"> فایده روزانه</p>
+          <p class="text-sm font-bold"> فایده روزانه</p>
           <svg class="bg-orange-200 p-1 rounded-full" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M8.67188 14.3298C8.67188 15.6198 9.66188 16.6598 10.8919 16.6598H13.4019C14.4719 16.6598 15.3419 15.7498 15.3419 14.6298C15.3419 13.4098 14.8119 12.9798 14.0219 12.6998L9.99187 11.2998C9.20187 11.0198 8.67188 10.5898 8.67188 9.36984C8.67188 8.24984 9.54187 7.33984 10.6119 7.33984H13.1219C14.3519 7.33984 15.3419 8.37984 15.3419 9.66984" stroke="#FF4800" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 6V18" stroke="#FF4800" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="#FF4800" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
         </div>
-        <h3 class="text-sm mt-8 font-bold">75000؋</h3>
+        <h3 class="text-xl mt-8 font-bold">75000؋</h3>
         </div>
       </div>
     </aside>
 
     <!-- کارت گراف دایره‌ای + خلاصه -->
-    <div class="col-span-1 lg:col-span-2 card-anim  bg-white shadow-lg rounded-xl border-r-4 border-b-4 border-blue-500 p-5 "style="border-color: rgba(9, 72, 238, 0.25);">
+    <div class="col-span-1 lg:col-span-2 card-anim  bg-white shadow-lg rounded-xl border-r-4 border-b-4 border-blue-500 p-5 "style="border-color: rgba(9, 72, 238, 0.15);">
       <div class="grid grid-cols-1 md:grid-cols-5 gap-6 items-center">
 
        
@@ -104,33 +106,36 @@
             <ul class="space-y-3">
               <li class="flex items-center justify-between">
                 <div class="flex items-center gap-2"><span class="inline-block w-3 h-3 rounded-full bg-accent"></span><span>جدید</span></div>
-                <div class="flex-1 h-0 border-t-2 border-dashed border-gray-300" data-connector="1"></div>
+           <div class="flex-grow  mt-3   border-t-2 border-dashed mx-4 border-gray-300" data-connector="1"></div>
                 <div class="font-semibold" id="val-new">200</div>
                  
               </li>
               <li class="flex items-center justify-between">
                 
               <div class="flex items-center gap-2"><span class="inline-block w-3 h-3 rounded-full bg-primary"></span><span>دسته دوم</span></div>
-                <div class="flex-1 h-0 border-t-2 border-dashed border-gray-300" data-connector="1"></div>
+             <div class="flex-grow  mt-3  border-t-2 border-dashed mx-4 border-gray-300" data-connector="1"></div>
               
               <div class="font-semibold" id="val-second">200</div>
               </li>
               <li class="flex items-center justify-between">
-                <div class="flex items-center gap-2"><span class="inline-block w-3 h-3 rounded-full bg-skydeep"></span><span>برگشتی</span></div>
-                <div class="flex-1 h-0 border-t-2 border-dashed border-gray-300" data-connector="1"></div>
+                <div class="flex items-center gap-2">
+                  <span class="inline-block w-3 h-3 rounded-full bg-skydeep"></span>
+                  
+                  <span>برگشتی</span>
+                </div>
+                <div class="flex-grow  mt-3  border-t-2 border-dashed mx-4 border-gray-300" data-connector="1"></div>
                
                 <div class="font-semibold" id="val-returns">200</div>
               </li>
             </ul>
-          </div>
-                <div class="flex-1 h-0 border-t-2 border-dashed border-gray-300" data-connector="1"></div>
+          </div><div class="flex mt-3  border-t-2 border-dashed mx-4 border-gray-300" data-connector="1"></div>
 
           <div>
             <p class="font-semibold mb-2">درصدی مفاد یا ضرر:</p>
             <div class="grid grid-cols-3 gap-3 text-center text-sm">
-                    <div class="rounded-xl  p-3"><p class="mb-1">جدید</p><span id="pct-new" class="font-bold bg-pink-200  text-accent">+50%</span></div>
-                    <div class="rounded-xl  p-3"><p class="mb-1">دسته دوم</p><span id="pct-second" class="font-bold text-primary bg-purple-200">+50%</span></div>
-                    <div class="rounded-xl  p-3"><p class="mb-1">برگشتی</p><span id="pct-returns" class="font-bold text-skydeep bg-sky-200 ">+50%</span></div>
+                    <div class="rounded-xl  p-3"><p class="mb-1">جدید</p><span id="pct-new" class="font-bold bg-pink-200 p-1 rounded-lg  text-accent">50%+</span></div>
+                    <div class="rounded-xl  p-3"><p class="mb-1">دسته دوم</p><span id="pct-second" class="font-bold text-primary p-1 rounded-lg  bg-purple-200">50%+</span></div>
+                    <div class="rounded-xl  p-3"><p class="mb-1">برگشتی</p><span id="pct-returns" class="font-bold text-skydeep p-1 rounded-lg  bg-sky-200 ">50%+</span></div>
             </div>
           </div>
         </div>
@@ -153,13 +158,13 @@
             <!-- پس زمینه حلقه‌ها -->
             <g transform="rotate(-90 130 130)" stroke-linecap="round" fill="none" stroke-width="16">
               <!-- Pink (جدید) -->
-              <circle cx="130" cy="130" r="110" stroke="#F1F5F9"/>
+              <circle cx="130" cy="130" r="110" stroke="#CBD5E1"/>
               <circle id="ring-new" cx="130" cy="130" r="110" stroke="url(#gradPink)" stroke-dasharray="690 690" stroke-dashoffset="0"/>
               <!-- Blue (دسته دوم) -->
-              <circle cx="130" cy="130" r="86" stroke="#F1F5F9"/>
+              <circle cx="130" cy="130" r="86" stroke="#CBD5E1"/>
               <circle id="ring-second" cx="130" cy="130" r="86" stroke="url(#gradBlue)" stroke-dasharray="540 540" stroke-dashoffset="0"/>
               <!-- Cyan (برگشتی) -->
-              <circle cx="130" cy="130" r="62" stroke="#F1F5F9"/>
+              <circle cx="130" cy="130" r="62" stroke="#CBD5E1"/>
               <circle id="ring-returns" cx="130" cy="130" r="62" stroke="url(#gradCyan)" stroke-dasharray="390 390" stroke-dashoffset="0"/>
             </g>
           </svg>
@@ -169,7 +174,7 @@
 
     <!-- نمودارها: ردیف پایین -->
     <div class="col-span-1 lg:col-span-3 grid grid-cols-1 lg:grid-cols-2 gap-5">
-      <div class="card-anim bg-white shadow-lg rounded-xl border-r-4 border-b-4 border-blue-500 p-5 "style="border-color: rgba(9, 72, 238, 0.25);">
+      <div class="card-anim bg-white shadow-lg rounded-xl border-r-4 border-b-4 border-blue-500 p-5 "style="border-color: rgba(9, 72, 238, 0.15);">
         <div class="flex items-center gap-2 ">
                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M6.87988 18.1501V16.0801" stroke="#01BB04" stroke-width="1.5" stroke-linecap="round"/>
@@ -184,7 +189,7 @@
         </div>
         <canvas id="profitChart" height="120" class="mt-4"></canvas>
       </div>
-      <div class="card-anim bg-white shadow-lg rounded-xl border-r-4 border-b-4 border-blue-500 p-5 "style="border-color: rgba(9, 72, 238, 0.25);">
+      <div class="card-anim bg-white shadow-lg rounded-xl border-r-4 border-b-4 border-blue-500 p-5 "style="border-color: rgba(9, 72, 238, 0.15);">
         <div class="flex items-center gap-2">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M17.1201 5.84992V7.91992" stroke="#E30000" stroke-width="1.5" stroke-linecap="round"/>

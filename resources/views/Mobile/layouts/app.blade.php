@@ -18,9 +18,11 @@
 
     
    
-    <main class="flex-1 main-content-container flex justify-center items-center mt-20 ">
+    <main class="flex-1 main-content-container flex justify-center items-center  lg:w-[800px] xl:w-[1500px] mt-20 ">
         @yield('content') 
     </main>
 
 </body>
 </html>
+
+
