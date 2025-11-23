@@ -104,11 +104,11 @@
 
       <!-- هدر -->
       <div class="mb-8 sm:mb-6 flex flex-col items-center w-full anim-rtl">
-        <div class="flex items-center gap-2 justify-center hover-lift">
+        <div class="flex items-center  justify-center hover-lift">
           <img src="{{ asset('img/logoo.jpg') }}" alt="لوگو"
                class="h-14 w-14 sm:h-16 sm:w-16 md:h-20 md:w-20 object-contain select-none anim-float" />
           <h3 class="text-blue-700 text-base sm:text-lg md:text-xl font-semibold whitespace-nowrap leading-none">
-            پنل موبایل
+           بازار الکترونیک
           </h3>
         </div>
       <p class="text-[#0300CC] text-[8px] sm:text-[9px] leading-none -mt-1 text-center">
@@ -162,29 +162,20 @@
     </div>
 
     <!-- ستون تصویر) -->
-    <div class="relative w-full md:w-1/2 order-1 md:mt-0 min-h-[48vh] md:min-h-[350px] mb-0 pb-0 overflow-hidden img-reveal">
+    <div class="relative w-full md:w-1/2 order-1 md:mt-0 min-h-[48vh] md:min-h-[450px] mb-0 pb-0 overflow-hidden img-reveal">
      
       <img
-        src="{{ asset('img/@Pixelifybot.jpg') }}"
+        src="https://i.postimg.cc/kgLGY0fb/Screenshot-2025-11-16-162019.png"
         alt="phone"
         class="absolute inset-0 w-full h-auto md:h-full object-cover
-               -rotate-90 md:rotate-0 origin-center anim-fade"
+                md:rotate-0 origin-center anim-fade"
       />
-
-    
-      <div class="absolute inset-0 z-10 grid place-items-center px-3 text-center">
-        <div class="flex flex-col items-center mt-20 lg:mt-0 lg:py-10 py-5 anim-tilt">
-        
-          <img
-            src="{{ asset('img/11.png') }}"
-            alt="overlay"
-            class="pointer-events-none object-contain w-[35vw] sm:w-[40vw] md:w-auto md:max-w-[70%]"
-          />
-          <p class="text-white font-semibold mt-0 sm:text-xs md:text-base drop-shadow">
-            بهترین پنل موبایل را بیابید!
-          </p>
-        </div>
-      </div>
+  <img
+        src="https://i.postimg.cc/m2mWr7Hj/Screenshot-2025-11-16-163616.png"
+        alt="phone mobile"
+        class="block md:hidden absolute inset-0 w-full h-auto md:h-full object-cover
+                md:rotate-0 origin-center anim-fade"
+      />
     </div>
   </div>
 
