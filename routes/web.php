@@ -38,3 +38,12 @@ Route::get('/user-form', function () {
 Route::get('/user-Information', function () {
     return view('Mobile.shop.userInformation');
 });
+
+// borrowings
+Route::get('/borrowings-page', function () {
+    return view('Mobile.shop.borrowings-page');
+});
+// accounts-page
+Route::get('/accounts', function () {
+    return view('Mobile.shop.accounts-page');
+});
