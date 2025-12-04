@@ -1,0 +1,490 @@
+<div class="w-full">
+    <div class="p-4">
+        <div class="md:grid grid-cols-5 gap-4">
+            <div class="col-span-3">
+                <!-- Table  -->
+                <div class=" rounded-xl shadow-[0_0_4px_rgba(7,70,247,1)]">
+                    <div class="bg-[#0948EE0D] p-4">
+                        <div class="flex justify-between">
+                            <h1 class="font-bold text-4xl">موجودی اجناس:</h1>
+                            <div class="bg-[#0948EE] text-white p-2 rounded-lg flex gap-1 items-center cursor-pointer">
+                                <svg width="18" height="18" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_464_1107)">
+                                        <path d="M7.52977 13.8047C10.981 13.8047 13.8047 10.981 13.8047 7.52977C13.8047 4.07858 10.981 1.25488 7.52977 1.25488C4.07858 1.25488 1.25488 4.07858 1.25488 7.52977C1.25488 10.981 4.07858 13.8047 7.52977 13.8047Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M5.02002 7.52979H10.0399" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M7.52979 10.0399V5.02002" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_464_1107">
+                                            <rect width="15.0597" height="15.0597" fill="white"/>
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                <p class="hidden md:flex text-sm">اضافه کردن مشتری جدید</p>
+                            </div>
+                        </div>
+                        <p class="font-bold text-xl mt-8">فیلتر پیشرفته:</p>
+                        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mt-4">
+                            <select name="" id="" class="bg-[#0948EE33] rounded-lg py-4">
+                                <option value="کتگوری">کتگوری</option>
+                                <option value="کتگوری">کتگوری1</option>
+                                <option value="کتگوری">کتگوری2</option>
+                            </select>
+                            <select name="" id="" class="bg-[#0948EE33] rounded-lg py-4">
+                                <option value="برند">برند</option>
+                                <option value="برند">برند1</option>
+                                <option value="برند">برند2</option>
+                            </select>
+                            <select name="" id="" class="bg-[#0948EE33] rounded-lg py-4">
+                                <option value="حالت">حالت</option>
+                                <option value="حالت">حالت1</option>
+                                <option value="حالت">حالت2</option>
+                            </select>
+                            <div class="bg-[#0948EE] text-white py-4 rounded-lg flex gap-1 items-center justify-center">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.34985 2H12.2499C12.9899 2 13.5999 2.61001 13.5999 3.35001V4.82999C13.5999 5.36999 13.2599 6.04 12.9299 6.38L10.0299 8.94C9.62991 9.28 9.35986 9.94999 9.35986 10.49V13.39C9.35986 13.79 9.08988 14.33 8.74988 14.54L7.80987 15.15C6.92987 15.69 5.71985 15.08 5.71985 14V10.43C5.71985 9.95999 5.44987 9.35001 5.17987 9.01001L2.61987 6.31C2.27987 5.97 2.00989 5.36999 2.00989 4.95999V3.41C1.99989 2.61 2.60985 2 3.34985 2Z" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M2 12.0002V15.0002C2 20.0002 4 22.0002 9 22.0002H15C20 22.0002 22 20.0002 22 15.0002V9.00024C22 5.88024 21.22 3.92024 19.41 2.90024C18.9 2.61024 17.88 2.39023 16.95 2.24023" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M13 13H18" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M11 17H18" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <p class="text-sm"> فیلتر اجرا</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="div1" class="transition-all duration-300 pb-3">
+                        <div class="mx-2 rounded-lg border border-[#0948EE] mt-1">
+                            <div class="hidden md:grid grid-cols-12 items-center bg-gray-200 py-4 rounded-lg">
+                                <div class="col-span-2 text-center"><p class="font-bold">مدل دستگاه</p></div>
+                                <div class="text-center"><p class="font-bold">حافظه</p></div>
+                                <div class="col-span-2 text-center"><p class="font-bold">شماره IMEI</p></div>
+                                <div class="col-span-3 text-center"><p class="font-bold">تامین کننده گان</p></div>
+                                <div class="col-span-2 text-center"><p class="font-bold">حالت موجودی</p></div>
+                                <div class="text-center"><p class="font-bold">ادیت</p></div>
+                                <div class="text-center"><p class="font-bold">حذف</p></div>
+                            </div>    
+                            <div class="cursor-pointer md:grid grid-cols-11 items-center md:mt-0 mt-0 py-4 hover:bg-[#0948EE33] border-b border-dotted border-[#0948EE]" onclick="handleClickDiv1()">
+                                <div class="col-span-2 text-center"><p class="text-sm">A20</p></div>
+                                <div class="text-center"><p class="text-sm">64GB</p></div>
+                                <div class="col-span-6 grid grid-cols-4 my-3 md:my-0">
+                                    <div class="text-center">
+                                        <h1 class="text-[#00000080] block md:hidden">شماره</h1>
+                                        <p class="text-sm">0798554322</p>
+                                    </div>
+                                    <div class="col-span-2 text-center">
+                                        <h1 class="text-[#00000080] block md:hidden">تامین کننده گان</h1>
+                                        <p class="text-sm">مطمین مبایل</p>
+                                    </div>
+                                    <div class="text-center">
+                                        <h1 class="text-[#00000080] block md:hidden">حالت موجودی</h1>
+                                        <p class="text-sm">80</p>
+                                    </div>    
+                                </div>
+                                <div class="col-span-2 grid grid-cols-2 my-5 md:my-0 gap-0 px-16 md:px-0">
+                                    <div class="mx-auto flex items-center border border-[#0033BB] md:border-none rounded-lg px-2 md:px-0 py-1 md:py-0">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9.1416 1.6665H7.47493C3.30827 1.6665 1.6416 3.33317 1.6416 7.49984V12.4998C1.6416 16.6665 3.30827 18.3332 7.47493 18.3332H12.4749C16.6416 18.3332 18.3083 16.6665 18.3083 12.4998V10.8332" stroke="#0071FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M18.2334 2.96669C17.2084 5.52502 14.6334 9.00835 12.4834 10.7334L11.1667 11.7834C11 11.9084 10.8334 12.0084 10.6417 12.0834C10.6417 11.9584 10.6334 11.8334 10.6167 11.7C10.5417 11.1417 10.2917 10.6167 9.8417 10.175C9.38337 9.71669 8.83337 9.45835 8.2667 9.38335C8.13337 9.37502 8.00003 9.36669 7.8667 9.37502C7.9417 9.16669 8.05003 8.97502 8.1917 8.81669L9.2417 7.50002C10.9667 5.35002 14.4584 2.75835 17.0084 1.73335C17.4 1.58335 17.7834 1.70002 18.025 1.94169C18.275 2.19169 18.3917 2.57502 18.2334 2.96669Z" stroke="#0071FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M10.6499 12.0751C10.6499 12.8084 10.3666 13.5084 9.84158 14.0417C9.43325 14.4501 8.88325 14.7334 8.22491 14.8167L6.58325 14.9917C5.69158 15.0917 4.92492 14.3334 5.02492 13.4251L5.19991 11.7834C5.35825 10.3251 6.57491 9.39173 7.87491 9.36673C8.00825 9.3584 8.14158 9.36673 8.27492 9.37507C8.84158 9.45007 9.39158 9.7084 9.84991 10.1667C10.2999 10.6167 10.5499 11.1334 10.6249 11.6917C10.6416 11.8251 10.6499 11.9584 10.6499 12.0751Z" stroke="#0071FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M13.1832 9.98353C13.1832 8.24186 11.7749 6.8252 10.0249 6.8252" stroke="#0071FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                        <p class="text-[#0033BB] block md:hidden">ویرایش</p>
+                                    </div>
+                                    <div class="mx-auto flex items-center border border-[#9C0000] md:border-none rounded-lg px-2 md:px-0 py-1 md:py-0">
+                                        <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M11.2026 14.5244L8.90186 12.2236" stroke="#FF0000" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M11.1777 12.2485L8.87695 14.5493" stroke="#FF0000" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M7.37096 1.67334L4.34229 4.71038" stroke="#FF0000" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M12.7085 1.67334L15.7372 4.71038" stroke="#FF0000" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M1.67334 6.56783C1.67334 5.02003 2.50162 4.89453 3.53071 4.89453H16.549C17.5781 4.89453 18.4064 5.02003 18.4064 6.56783C18.4064 8.36663 17.5781 8.24114 16.549 8.24114H3.53071C2.50162 8.24114 1.67334 8.36663 1.67334 6.56783Z" stroke="#FF0000" stroke-width="1.5"/>
+                                            <path d="M2.92822 8.3667L4.1079 15.5954C4.37563 17.2185 5.01985 18.4065 7.41267 18.4065H12.4577C15.0597 18.4065 15.4445 17.2687 15.7457 15.6958L17.1513 8.3667" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round"/>
+                                        </svg>
+                                        <p class="text-[#9C0000] block md:hidden">حذف</p>
+                                    </div>    
+                                </div>                                    
+                            </div>
+                            <div class="cursor-pointer md:grid grid-cols-11 items-center md:mt-0 mt-0 py-4 hover:bg-[#0948EE33] border-b border-dotted border-[#0948EE]" onclick="handleClickDiv1()">
+                                <div class="col-span-2 text-center"><p class="text-sm">A20</p></div>
+                                <div class="text-center"><p class="text-sm">64GB</p></div>
+                                <div class="col-span-6 grid grid-cols-4 my-3 md:my-0">
+                                    <div class="text-center">
+                                        <h1 class="text-[#00000080] block md:hidden">شماره</h1>
+                                        <p class="text-sm">0798554322</p>
+                                    </div>
+                                    <div class="col-span-2 text-center">
+                                        <h1 class="text-[#00000080] block md:hidden">تامین کننده گان</h1>
+                                        <p class="text-sm">مطمین مبایل</p>
+                                    </div>
+                                    <div class="text-center">
+                                        <h1 class="text-[#00000080] block md:hidden">حالت موجودی</h1>
+                                        <p class="text-sm">80</p>
+                                    </div>    
+                                </div>
+                                <div class="col-span-2 grid grid-cols-2 my-5 md:my-0 gap-0 px-16 md:px-0">
+                                    <div class="mx-auto flex items-center border border-[#0033BB] md:border-none rounded-lg px-2 md:px-0 py-1 md:py-0">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9.1416 1.6665H7.47493C3.30827 1.6665 1.6416 3.33317 1.6416 7.49984V12.4998C1.6416 16.6665 3.30827 18.3332 7.47493 18.3332H12.4749C16.6416 18.3332 18.3083 16.6665 18.3083 12.4998V10.8332" stroke="#0071FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M18.2334 2.96669C17.2084 5.52502 14.6334 9.00835 12.4834 10.7334L11.1667 11.7834C11 11.9084 10.8334 12.0084 10.6417 12.0834C10.6417 11.9584 10.6334 11.8334 10.6167 11.7C10.5417 11.1417 10.2917 10.6167 9.8417 10.175C9.38337 9.71669 8.83337 9.45835 8.2667 9.38335C8.13337 9.37502 8.00003 9.36669 7.8667 9.37502C7.9417 9.16669 8.05003 8.97502 8.1917 8.81669L9.2417 7.50002C10.9667 5.35002 14.4584 2.75835 17.0084 1.73335C17.4 1.58335 17.7834 1.70002 18.025 1.94169C18.275 2.19169 18.3917 2.57502 18.2334 2.96669Z" stroke="#0071FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M10.6499 12.0751C10.6499 12.8084 10.3666 13.5084 9.84158 14.0417C9.43325 14.4501 8.88325 14.7334 8.22491 14.8167L6.58325 14.9917C5.69158 15.0917 4.92492 14.3334 5.02492 13.4251L5.19991 11.7834C5.35825 10.3251 6.57491 9.39173 7.87491 9.36673C8.00825 9.3584 8.14158 9.36673 8.27492 9.37507C8.84158 9.45007 9.39158 9.7084 9.84991 10.1667C10.2999 10.6167 10.5499 11.1334 10.6249 11.6917C10.6416 11.8251 10.6499 11.9584 10.6499 12.0751Z" stroke="#0071FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M13.1832 9.98353C13.1832 8.24186 11.7749 6.8252 10.0249 6.8252" stroke="#0071FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                        <p class="text-[#0033BB] block md:hidden">ویرایش</p>
+                                    </div>
+                                    <div class="mx-auto flex items-center border border-[#9C0000] md:border-none rounded-lg px-2 md:px-0 py-1 md:py-0">
+                                        <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M11.2026 14.5244L8.90186 12.2236" stroke="#FF0000" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M11.1777 12.2485L8.87695 14.5493" stroke="#FF0000" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M7.37096 1.67334L4.34229 4.71038" stroke="#FF0000" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M12.7085 1.67334L15.7372 4.71038" stroke="#FF0000" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M1.67334 6.56783C1.67334 5.02003 2.50162 4.89453 3.53071 4.89453H16.549C17.5781 4.89453 18.4064 5.02003 18.4064 6.56783C18.4064 8.36663 17.5781 8.24114 16.549 8.24114H3.53071C2.50162 8.24114 1.67334 8.36663 1.67334 6.56783Z" stroke="#FF0000" stroke-width="1.5"/>
+                                            <path d="M2.92822 8.3667L4.1079 15.5954C4.37563 17.2185 5.01985 18.4065 7.41267 18.4065H12.4577C15.0597 18.4065 15.4445 17.2687 15.7457 15.6958L17.1513 8.3667" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round"/>
+                                        </svg>
+                                        <p class="text-[#9C0000] block md:hidden">حذف</p>
+                                    </div>    
+                                </div>                                    
+                            </div>
+                            <div class="cursor-pointer md:grid grid-cols-11 items-center md:mt-0 mt-0 py-4 hover:bg-[#0948EE33] border-b border-dotted border-[#0948EE]" onclick="handleClickDiv1()">
+                                <div class="col-span-2 text-center"><p class="text-sm">A20</p></div>
+                                <div class="text-center"><p class="text-sm">64GB</p></div>
+                                <div class="col-span-6 grid grid-cols-4 my-3 md:my-0">
+                                    <div class="text-center">
+                                        <h1 class="text-[#00000080] block md:hidden">شماره</h1>
+                                        <p class="text-sm">0798554322</p>
+                                    </div>
+                                    <div class="col-span-2 text-center">
+                                        <h1 class="text-[#00000080] block md:hidden">تامین کننده گان</h1>
+                                        <p class="text-sm">مطمین مبایل</p>
+                                    </div>
+                                    <div class="text-center">
+                                        <h1 class="text-[#00000080] block md:hidden">حالت موجودی</h1>
+                                        <p class="text-sm">80</p>
+                                    </div>    
+                                </div>
+                                <div class="col-span-2 grid grid-cols-2 my-5 md:my-0 gap-0 px-16 md:px-0">
+                                    <div class="mx-auto flex items-center border border-[#0033BB] md:border-none rounded-lg px-2 md:px-0 py-1 md:py-0">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9.1416 1.6665H7.47493C3.30827 1.6665 1.6416 3.33317 1.6416 7.49984V12.4998C1.6416 16.6665 3.30827 18.3332 7.47493 18.3332H12.4749C16.6416 18.3332 18.3083 16.6665 18.3083 12.4998V10.8332" stroke="#0071FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M18.2334 2.96669C17.2084 5.52502 14.6334 9.00835 12.4834 10.7334L11.1667 11.7834C11 11.9084 10.8334 12.0084 10.6417 12.0834C10.6417 11.9584 10.6334 11.8334 10.6167 11.7C10.5417 11.1417 10.2917 10.6167 9.8417 10.175C9.38337 9.71669 8.83337 9.45835 8.2667 9.38335C8.13337 9.37502 8.00003 9.36669 7.8667 9.37502C7.9417 9.16669 8.05003 8.97502 8.1917 8.81669L9.2417 7.50002C10.9667 5.35002 14.4584 2.75835 17.0084 1.73335C17.4 1.58335 17.7834 1.70002 18.025 1.94169C18.275 2.19169 18.3917 2.57502 18.2334 2.96669Z" stroke="#0071FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M10.6499 12.0751C10.6499 12.8084 10.3666 13.5084 9.84158 14.0417C9.43325 14.4501 8.88325 14.7334 8.22491 14.8167L6.58325 14.9917C5.69158 15.0917 4.92492 14.3334 5.02492 13.4251L5.19991 11.7834C5.35825 10.3251 6.57491 9.39173 7.87491 9.36673C8.00825 9.3584 8.14158 9.36673 8.27492 9.37507C8.84158 9.45007 9.39158 9.7084 9.84991 10.1667C10.2999 10.6167 10.5499 11.1334 10.6249 11.6917C10.6416 11.8251 10.6499 11.9584 10.6499 12.0751Z" stroke="#0071FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M13.1832 9.98353C13.1832 8.24186 11.7749 6.8252 10.0249 6.8252" stroke="#0071FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                        <p class="text-[#0033BB] block md:hidden">ویرایش</p>
+                                    </div>
+                                    <div class="mx-auto flex items-center border border-[#9C0000] md:border-none rounded-lg px-2 md:px-0 py-1 md:py-0">
+                                        <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M11.2026 14.5244L8.90186 12.2236" stroke="#FF0000" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M11.1777 12.2485L8.87695 14.5493" stroke="#FF0000" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M7.37096 1.67334L4.34229 4.71038" stroke="#FF0000" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M12.7085 1.67334L15.7372 4.71038" stroke="#FF0000" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M1.67334 6.56783C1.67334 5.02003 2.50162 4.89453 3.53071 4.89453H16.549C17.5781 4.89453 18.4064 5.02003 18.4064 6.56783C18.4064 8.36663 17.5781 8.24114 16.549 8.24114H3.53071C2.50162 8.24114 1.67334 8.36663 1.67334 6.56783Z" stroke="#FF0000" stroke-width="1.5"/>
+                                            <path d="M2.92822 8.3667L4.1079 15.5954C4.37563 17.2185 5.01985 18.4065 7.41267 18.4065H12.4577C15.0597 18.4065 15.4445 17.2687 15.7457 15.6958L17.1513 8.3667" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round"/>
+                                        </svg>
+                                        <p class="text-[#9C0000] block md:hidden">حذف</p>
+                                    </div>    
+                                </div>                                    
+                            </div>
+                            <div class="cursor-pointer md:grid grid-cols-11 items-center md:mt-0 mt-0 py-4 hover:bg-[#0948EE33] border-b border-dotted border-[#0948EE]" onclick="handleClickDiv1()">
+                                <div class="col-span-2 text-center"><p class="text-sm">A20</p></div>
+                                <div class="text-center"><p class="text-sm">64GB</p></div>
+                                <div class="col-span-6 grid grid-cols-4 my-3 md:my-0">
+                                    <div class="text-center">
+                                        <h1 class="text-[#00000080] block md:hidden">شماره</h1>
+                                        <p class="text-sm">0798554322</p>
+                                    </div>
+                                    <div class="col-span-2 text-center">
+                                        <h1 class="text-[#00000080] block md:hidden">تامین کننده گان</h1>
+                                        <p class="text-sm">مطمین مبایل</p>
+                                    </div>
+                                    <div class="text-center">
+                                        <h1 class="text-[#00000080] block md:hidden">حالت موجودی</h1>
+                                        <p class="text-sm">80</p>
+                                    </div>    
+                                </div>
+                                <div class="col-span-2 grid grid-cols-2 my-5 md:my-0 gap-0 px-16 md:px-0">
+                                    <div class="mx-auto flex items-center border border-[#0033BB] md:border-none rounded-lg px-2 md:px-0 py-1 md:py-0">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9.1416 1.6665H7.47493C3.30827 1.6665 1.6416 3.33317 1.6416 7.49984V12.4998C1.6416 16.6665 3.30827 18.3332 7.47493 18.3332H12.4749C16.6416 18.3332 18.3083 16.6665 18.3083 12.4998V10.8332" stroke="#0071FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M18.2334 2.96669C17.2084 5.52502 14.6334 9.00835 12.4834 10.7334L11.1667 11.7834C11 11.9084 10.8334 12.0084 10.6417 12.0834C10.6417 11.9584 10.6334 11.8334 10.6167 11.7C10.5417 11.1417 10.2917 10.6167 9.8417 10.175C9.38337 9.71669 8.83337 9.45835 8.2667 9.38335C8.13337 9.37502 8.00003 9.36669 7.8667 9.37502C7.9417 9.16669 8.05003 8.97502 8.1917 8.81669L9.2417 7.50002C10.9667 5.35002 14.4584 2.75835 17.0084 1.73335C17.4 1.58335 17.7834 1.70002 18.025 1.94169C18.275 2.19169 18.3917 2.57502 18.2334 2.96669Z" stroke="#0071FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M10.6499 12.0751C10.6499 12.8084 10.3666 13.5084 9.84158 14.0417C9.43325 14.4501 8.88325 14.7334 8.22491 14.8167L6.58325 14.9917C5.69158 15.0917 4.92492 14.3334 5.02492 13.4251L5.19991 11.7834C5.35825 10.3251 6.57491 9.39173 7.87491 9.36673C8.00825 9.3584 8.14158 9.36673 8.27492 9.37507C8.84158 9.45007 9.39158 9.7084 9.84991 10.1667C10.2999 10.6167 10.5499 11.1334 10.6249 11.6917C10.6416 11.8251 10.6499 11.9584 10.6499 12.0751Z" stroke="#0071FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M13.1832 9.98353C13.1832 8.24186 11.7749 6.8252 10.0249 6.8252" stroke="#0071FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                        <p class="text-[#0033BB] block md:hidden">ویرایش</p>
+                                    </div>
+                                    <div class="mx-auto flex items-center border border-[#9C0000] md:border-none rounded-lg px-2 md:px-0 py-1 md:py-0">
+                                        <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M11.2026 14.5244L8.90186 12.2236" stroke="#FF0000" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M11.1777 12.2485L8.87695 14.5493" stroke="#FF0000" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M7.37096 1.67334L4.34229 4.71038" stroke="#FF0000" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M12.7085 1.67334L15.7372 4.71038" stroke="#FF0000" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M1.67334 6.56783C1.67334 5.02003 2.50162 4.89453 3.53071 4.89453H16.549C17.5781 4.89453 18.4064 5.02003 18.4064 6.56783C18.4064 8.36663 17.5781 8.24114 16.549 8.24114H3.53071C2.50162 8.24114 1.67334 8.36663 1.67334 6.56783Z" stroke="#FF0000" stroke-width="1.5"/>
+                                            <path d="M2.92822 8.3667L4.1079 15.5954C4.37563 17.2185 5.01985 18.4065 7.41267 18.4065H12.4577C15.0597 18.4065 15.4445 17.2687 15.7457 15.6958L17.1513 8.3667" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round"/>
+                                        </svg>
+                                        <p class="text-[#9C0000] block md:hidden">حذف</p>
+                                    </div>    
+                                </div>                                    
+                            </div>
+                            <div class="cursor-pointer md:grid grid-cols-11 items-center md:mt-0 mt-0 py-4 hover:bg-[#0948EE33]" onclick="handleClickDiv1()">
+                                <div class="col-span-2 text-center"><p class="text-sm">A20</p></div>
+                                <div class="text-center"><p class="text-sm">64GB</p></div>
+                                <div class="col-span-6 grid grid-cols-4 my-3 md:my-0">
+                                    <div class="text-center">
+                                        <h1 class="text-[#00000080] block md:hidden">شماره</h1>
+                                        <p class="text-sm">0798554322</p>
+                                    </div>
+                                    <div class="col-span-2 text-center">
+                                        <h1 class="text-[#00000080] block md:hidden">تامین کننده گان</h1>
+                                        <p class="text-sm">مطمین مبایل</p>
+                                    </div>
+                                    <div class="text-center">
+                                        <h1 class="text-[#00000080] block md:hidden">حالت موجودی</h1>
+                                        <p class="text-sm">80</p>
+                                    </div>    
+                                </div>
+                                <div class="col-span-2 grid grid-cols-2 my-5 md:my-0 gap-0 px-16 md:px-0">
+                                    <div class="mx-auto flex items-center border border-[#0033BB] md:border-none rounded-lg px-2 md:px-0 py-1 md:py-0">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9.1416 1.6665H7.47493C3.30827 1.6665 1.6416 3.33317 1.6416 7.49984V12.4998C1.6416 16.6665 3.30827 18.3332 7.47493 18.3332H12.4749C16.6416 18.3332 18.3083 16.6665 18.3083 12.4998V10.8332" stroke="#0071FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M18.2334 2.96669C17.2084 5.52502 14.6334 9.00835 12.4834 10.7334L11.1667 11.7834C11 11.9084 10.8334 12.0084 10.6417 12.0834C10.6417 11.9584 10.6334 11.8334 10.6167 11.7C10.5417 11.1417 10.2917 10.6167 9.8417 10.175C9.38337 9.71669 8.83337 9.45835 8.2667 9.38335C8.13337 9.37502 8.00003 9.36669 7.8667 9.37502C7.9417 9.16669 8.05003 8.97502 8.1917 8.81669L9.2417 7.50002C10.9667 5.35002 14.4584 2.75835 17.0084 1.73335C17.4 1.58335 17.7834 1.70002 18.025 1.94169C18.275 2.19169 18.3917 2.57502 18.2334 2.96669Z" stroke="#0071FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M10.6499 12.0751C10.6499 12.8084 10.3666 13.5084 9.84158 14.0417C9.43325 14.4501 8.88325 14.7334 8.22491 14.8167L6.58325 14.9917C5.69158 15.0917 4.92492 14.3334 5.02492 13.4251L5.19991 11.7834C5.35825 10.3251 6.57491 9.39173 7.87491 9.36673C8.00825 9.3584 8.14158 9.36673 8.27492 9.37507C8.84158 9.45007 9.39158 9.7084 9.84991 10.1667C10.2999 10.6167 10.5499 11.1334 10.6249 11.6917C10.6416 11.8251 10.6499 11.9584 10.6499 12.0751Z" stroke="#0071FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M13.1832 9.98353C13.1832 8.24186 11.7749 6.8252 10.0249 6.8252" stroke="#0071FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                        <p class="text-[#0033BB] block md:hidden">ویرایش</p>
+                                    </div>
+                                    <div class="mx-auto flex items-center border border-[#9C0000] md:border-none rounded-lg px-2 md:px-0 py-1 md:py-0">
+                                        <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M11.2026 14.5244L8.90186 12.2236" stroke="#FF0000" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M11.1777 12.2485L8.87695 14.5493" stroke="#FF0000" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M7.37096 1.67334L4.34229 4.71038" stroke="#FF0000" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M12.7085 1.67334L15.7372 4.71038" stroke="#FF0000" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M1.67334 6.56783C1.67334 5.02003 2.50162 4.89453 3.53071 4.89453H16.549C17.5781 4.89453 18.4064 5.02003 18.4064 6.56783C18.4064 8.36663 17.5781 8.24114 16.549 8.24114H3.53071C2.50162 8.24114 1.67334 8.36663 1.67334 6.56783Z" stroke="#FF0000" stroke-width="1.5"/>
+                                            <path d="M2.92822 8.3667L4.1079 15.5954C4.37563 17.2185 5.01985 18.4065 7.41267 18.4065H12.4577C15.0597 18.4065 15.4445 17.2687 15.7457 15.6958L17.1513 8.3667" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round"/>
+                                        </svg>
+                                        <p class="text-[#9C0000] block md:hidden">حذف</p>
+                                    </div>    
+                                </div>                                    
+                            </div>
+                        </div>
+                        <div class="pagination mt-6 mr-4" style="margin-bottom: 10px;">
+                            <a class="px-2 py-1 rounded-lg bg-[#0948EE14]" href="#">&#60;</a>
+                            <a class="px-2 py-1 rounded-lg bg-[#0948EE14]" href="#">25</a>
+                            <a class="px-2 py-1 rounded-lg bg-[#0948EE14]" href="#">...</a>
+                            <a class="px-2 py-1 rounded-lg bg-[#0948EE14]" href="#">3</a>
+                            <a class="px-2 py-1 rounded-lg bg-[#0948EE14]" href="#">2</a>
+                            <a class="text-[#0800FF] border border-[#0800FF] px-2 py-1 rounded-lg" href="#">1</a>
+                            <a class="px-2 py-1 rounded-lg bg-[#0948EE14]" href="#">&#62;</a>
+                        </div>      
+                    </div>
+                    <div id="div2" class="hidden mt-4 transition-all duration-300 pb-2">
+                        <div onclick="handleClickBack()" class="relative mx-2 rounded-lg border border-[#0948EE] mt-1 pt-5 px-4 pb-4">
+                            <div class="absolute left-3 cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+                                </svg>    
+                            </div>
+                            <div class="flex justify-center">
+                                <img src="{{ asset('images/photo1.PNG') }}" alt="" class="w-36 rounded-xl mx-auto">
+                            </div>
+                            <h1 class="font-bold text-2xl text-center mt-2">سامسونگ A24</h1>
+                            <div class="flex items-center mt-2">
+                                <p class="text-gray-500">شماره IMEI:</p>
+                                <P class="mr-2">0767954567</P>
+                            </div>
+                            <div class="flex items-center">
+                                <p class="text-gray-500">کتگوری:</p>
+                                <P class="mr-9">مبایل</P>
+                            </div>
+                            <div class="flex items-center">
+                                <p class="text-gray-500">رنگ:</p>
+                                <P class="mr-14">خاکستری</P>
+                            </div>
+                            <div class="flex items-center">
+                                <p class="text-gray-500">حالت:</p>
+                                <P class="mr-12">جدید</P>
+                            </div>
+                            <div class="flex items-center">
+                                <p class="text-gray-500">موجودی:</p>
+                                <P class="mr-8">30</P>
+                            </div>
+                            <div class="flex justify-center">
+                                <button class="w-48 border border-[#0948EE] rounded-lg text-center py-1 mt-1 cursor-pointer">مشخصات فروش</button>
+                            </div>
+                            <div class="flex items-center mt-2">
+                                <p class="text-gray-500">قیمت خرید:</p>
+                                <P class="mr-8">15000؋</P>
+                            </div>
+                            <div class="flex items-center mt-2">
+                                <p class="text-gray-500">قیمت فروش:</p>
+                                <P class="mr-6">18000؋</P>
+                            </div>
+                            <div class="flex items-center mt-2">
+                                <p class="text-gray-500">فیصدی مفاد:</p>
+                                <P class="mr-6">10%</P>
+                            </div>
+                            <div class="flex items-center mt-2">
+                                <p class="text-gray-500">حالت راجستر:</p>
+                                <P class="mr-6">ثبت شده</P>
+                            </div>
+                            <div class="flex items-center mt-2">
+                                <p class="text-gray-500">گارانتی:</p>
+                                <P class="mr-16">3ماه</P>
+                            </div>
+                            <div class="flex items-center mt-2">
+                                <p class="text-gray-500">مقدار مفاد:</p>
+                                <P class="mr-10">3000؋</P>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-3">
+                    <div class="bg-[#F5F5F5] rounded-xl space-y-5 p-3 border-r-2 border-[#0B35CC] shadow-[0_0_4px_rgba(7,70,247,1)] transition-all duration-200 hover:scale-106 cursor-pointer">
+                        <div class="flex justify-between items-center">
+                            <h1 class="font-bold">موجودی کل</h1>
+                            <div class="bg-[#0B35CC33] rounded-full p-1">
+                                <svg width="27" height="20" viewBox="0 0 27 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10.125 18.3337H16.875C22.5 18.3337 24.75 16.667 24.75 12.5003V7.50033C24.75 3.33366 22.5 1.66699 16.875 1.66699H10.125C4.5 1.66699 2.25 3.33366 2.25 7.50033V12.5003C2.25 16.667 4.5 18.3337 10.125 18.3337Z" stroke="#0B35CC" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M9 15.8337H18C20.25 15.8337 21.375 15.0003 21.375 13.3337V6.66699C21.375 5.00033 20.25 4.16699 18 4.16699H9C6.75 4.16699 5.625 5.00033 5.625 6.66699V13.3337C5.625 15.0003 6.75 15.8337 9 15.8337Z" stroke="#0B35CC" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M5.625 7.91699H8.415C9.9675 7.91699 11.2275 8.85033 11.2275 10.0003C11.2275 11.1503 9.9675 12.0837 8.415 12.0837H5.625" stroke="#0B35CC" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M21.375 8.3252H18" stroke="#0B35CC" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M21.375 11.667H18" stroke="#0B35CC" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M8.1001 10H8.2126" stroke="#0B35CC" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <h1 class="font-bold">60</h1>
+                            <p class="text-[#0B35CC] bg-[#0B35CC33] text-[7px] p-0.5 ml-1 rounded-sm">+ 20%</p>
+                        </div>
+                    </div>  
+                    <div class="bg-[#F5F5F5] rounded-xl space-y-5 p-3 border-r-2 border-[#0099FF] shadow-[0_0_4px_rgba(7,70,247,1)] transition-all duration-200 hover:scale-106 cursor-pointer">
+                        <div class="flex justify-between items-center">
+                            <h1 class="font-bold">موجودی دوکان</h1>
+                            <div class="bg-[#0099FF33] rounded-full p-1">
+                                <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.77686 13.4998L12.5885 16.2223L18.2235 10.7773" stroke="#0099FF" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M12.5419 2.75611C13.3469 2.09236 14.6652 2.09236 15.4819 2.75611L17.3252 4.28611C17.6752 4.57861 18.3285 4.81486 18.7952 4.81486H20.7785C22.0152 4.81486 23.0302 5.79361 23.0302 6.98611V8.89861C23.0302 9.33736 23.2752 9.97861 23.5785 10.3161L25.1652 12.0936C25.8535 12.8699 25.8535 14.1411 25.1652 14.9286L23.5785 16.7061C23.2752 17.0436 23.0302 17.6736 23.0302 18.1236V20.0361C23.0302 21.2286 22.0152 22.2074 20.7785 22.2074H18.7952C18.3402 22.2074 17.6752 22.4436 17.3252 22.7361L15.4819 24.2661C14.6769 24.9299 13.3585 24.9299 12.5419 24.2661L10.6985 22.7361C10.3485 22.4436 9.69519 22.2074 9.22852 22.2074H7.21019C5.97352 22.2074 4.95852 21.2286 4.95852 20.0361V18.1124C4.95852 17.6736 4.71352 17.0436 4.42186 16.7061L2.84686 14.9174C2.17019 14.1411 2.17019 12.8811 2.84686 12.1049L4.42186 10.3161C4.71352 9.97861 4.95852 9.34861 4.95852 8.90986V6.97486C4.95852 5.78236 5.97352 4.80361 7.21019 4.80361H9.22852C9.68352 4.80361 10.3485 4.56736 10.6985 4.27486L12.5419 2.75611Z" stroke="#0099FF" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <h1 class="font-bold">60</h1>
+                            <p class="text-[#0099FF] bg-[#0099FF33] text-[7px] p-0.5 ml-1 rounded-sm">+ 20%</p>
+                        </div>
+                    </div> 
+                    <div class="bg-[#F5F5F5] rounded-xl space-y-5 p-3 border-r-2 border-[#31009B] shadow-[0_0_4px_rgba(7,70,247,1)] transition-all duration-200 hover:scale-106 cursor-pointer">
+                        <div class="flex justify-between items-center">
+                            <h1 class="font-bold">موجودی انبار</h1>
+                            <div class="bg-[#31009B33] rounded-full p-1">
+                                <svg width="21" height="24" viewBox="0 0 21 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.40764 16.8604V18.8904C9.40764 20.6104 8.00763 22.0004 6.28388 22.0004C4.56013 22.0004 3.15137 20.6104 3.15137 18.8904V16.8604C3.15137 18.5804 4.55138 19.8004 6.28388 19.8004C8.00763 19.8004 9.40764 18.5704 9.40764 16.8604Z" stroke="#31009B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M9.40609 14.1097C9.40609 14.6097 9.28359 15.0697 9.07359 15.4697C8.55734 16.4397 7.49857 17.0497 6.27357 17.0497C5.04857 17.0497 3.98981 16.4297 3.47356 15.4697C3.26356 15.0697 3.14111 14.6097 3.14111 14.1097C3.14111 13.2497 3.49109 12.4797 4.05109 11.9197C4.61984 11.3497 5.39857 11.0098 6.26482 11.0098C7.13107 11.0098 7.90984 11.3597 8.47859 11.9197C9.05609 12.4697 9.40609 13.2497 9.40609 14.1097Z" stroke="#31009B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M9.40764 14.11V16.86C9.40764 18.58 8.00763 19.8 6.28388 19.8C4.56013 19.8 3.15137 18.57 3.15137 16.86V14.11C3.15137 12.39 4.55138 11 6.28388 11C7.15013 11 7.92891 11.35 8.49766 11.91C9.05766 12.47 9.40764 13.25 9.40764 14.11Z" stroke="#31009B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M19.2502 10.9702V13.0302C19.2502 13.5802 18.8652 14.0302 18.3752 14.0502H16.6602C15.7152 14.0502 14.8489 13.2602 14.7702 12.1802C14.7177 11.5502 14.9277 10.9602 15.2952 10.5502C15.6189 10.1702 16.0652 9.9502 16.5552 9.9502H18.3752C18.8652 9.9702 19.2502 10.4202 19.2502 10.9702Z" stroke="#31009B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M1.75 10.5V8.5C1.75 5.78 3.185 3.88 5.41625 3.56C5.64375 3.52 5.88 3.5 6.125 3.5H14C14.2275 3.5 14.4463 3.50999 14.6562 3.54999C16.9137 3.84999 18.375 5.76 18.375 8.5V9.95001H16.555C16.065 9.95001 15.6187 10.17 15.295 10.55C14.9275 10.96 14.7175 11.55 14.77 12.18C14.8488 13.26 15.715 14.05 16.66 14.05H18.375V15.5C18.375 18.5 16.625 20.5 14 20.5H11.8125" stroke="#31009B" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <h1 class="font-bold">75000</h1>
+                            <p class="text-[#31009B] bg-[#31009B33] text-[7px] p-0.5 ml-1 rounded-sm">+ 20%</p>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <!-- Details  -->
+            <div class="col-span-2 hidden md:block mt-4 md:mt-0">
+                <div class="rounded-xl shadow-[0_0_4px_rgba(7,70,247,1)] pt-5 px-4 pb-5">
+                    <div class="flex justify-center">
+                        <img src="{{ asset('images/photo1.PNG') }}" alt="" class="w-60 rounded-xl mx-auto">
+                    </div>
+                    <h1 class="font-bold text-2xl text-center mt-2">سامسونگ A24</h1>
+                    <div class="flex items-center mt-4">
+                        <p class="text-gray-500">شماره IMEI:</p>
+                        <P class="mr-2">0767954567</P>
+                    </div>
+                    <div class="flex items-center mt-1">
+                        <p class="text-gray-500">کتگوری:</p>
+                        <P class="mr-9">مبایل</P>
+                    </div>
+                    <div class="flex items-center mt-1">
+                        <p class="text-gray-500">رنگ:</p>
+                        <P class="mr-14">خاکستری</P>
+                    </div>
+                    <div class="flex items-center mt-1">
+                        <p class="text-gray-500">حالت:</p>
+                        <P class="mr-12">جدید</P>
+                    </div>
+                    <div class="flex items-center mt-1">
+                        <p class="text-gray-500">موجودی:</p>
+                        <P class="mr-8">30</P>
+                    </div>
+                    <div class="flex justify-center mt-1">
+                        <button class="w-48 border border-[#0948EE] rounded-lg text-center py-3 cursor-pointer">مشخصات فروش</button>
+                    </div>
+                    <div class="flex items-center mt-2">
+                        <p class="text-gray-500">قیمت خرید:</p>
+                        <P class="mr-8">15000؋</P>
+                    </div>
+                    <div class="flex items-center mt-2">
+                        <p class="text-gray-500">قیمت فروش:</p>
+                        <P class="mr-6">18000؋</P>
+                    </div>
+                    <div class="flex items-center mt-2">
+                        <p class="text-gray-500">فیصدی مفاد:</p>
+                        <P class="mr-6">10%</P>
+                    </div>
+                    <div class="flex items-center mt-2">
+                        <p class="text-gray-500">حالت راجستر:</p>
+                        <P class="mr-6">ثبت شده</P>
+                    </div>
+                    <div class="flex items-center mt-2">
+                        <p class="text-gray-500">گارانتی:</p>
+                        <P class="mr-16">3ماه</P>
+                    </div>
+                    <div class="flex items-center mt-2">
+                        <p class="text-gray-500">مقدار مفاد:</p>
+                        <P class="mr-10">3000؋</P>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Java Code  -->
+<script>
+    function fadeIn(el) {
+      el.classList.remove("hidden");
+      el.classList.add("fade-enter");
+      requestAnimationFrame(() => {
+        el.classList.add("fade-enter-active");
+        el.classList.remove("fade-enter");
+});
+}
+
+    function fadeOut(el, callback) {
+      el.classList.add("fade-leave");
+      requestAnimationFrame(() => {
+        el.classList.add("fade-leave-active");
+        el.classList.remove("fade-leave");
+        setTimeout(() => {
+          el.classList.remove("fade-leave-active");
+          el.classList.add("hidden");
+          if (callback) callback();
+}, 300);
+});
+}
+
+    function handleClickDiv1() {
+      if (window.innerWidth < 768) {
+        const div1 = document.getElementById("div1");
+        const div2 = document.getElementById("div2");
+        fadeOut(div1, () => fadeIn(div2));
+}
+}
+
+    function handleClickBack() {
+      const div1 = document.getElementById("div1");
+      const div2 = document.getElementById("div2");
+      fadeOut(div2, () => fadeIn(div1));
+}
+</script>
