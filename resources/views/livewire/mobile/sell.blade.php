@@ -1,7 +1,7 @@
-<div class="w-full">
+<div >
     <div class="p-4">
         <!-- cards -->
-        <div class="gap-4 md:gap-10 grid grid-cols-2 md:grid-cols-4 w-full">
+        <div class="gap-4 max-w-7xl mx-auto md:gap-10 grid grid-cols-2 md:grid-cols-4 ">
             <div class="bg-[#0B35CC]/10 rounded-xl space-y-5 h-28 p-4  border-r-[2px]     border-[#0B35CC] shadow-xl shadow-[0px_4px_4px_0px_#00000040] transition-all duration-200 hover:scale-105 cursor-pointer">
                 <div class="flex justify-between items-center">
                     <h1 class="font-bold">مفاد کل فروشات</h1>
@@ -75,7 +75,7 @@
             </div>
         </div>
         <!-- Table -->
-        <div class="bg-[#fafafa] mt-4 py-4 px-3 md:px-1 rounded-xl shadow-xl shadow-[0px_4px_4px_0px_#00000040]">
+        <div class="bg-[#fafafa] max-w-7xl mx-auto mt-4 py-4 px-3 md:px-1 rounded-xl shadow-xl shadow-[0px_4px_4px_0px_#00000040]">
             <div class="">
                 <!-- Title -->
                 <div class="flex justify-between items-center pb-2 md:mb-0">

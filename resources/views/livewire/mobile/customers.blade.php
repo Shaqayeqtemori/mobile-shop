@@ -1,7 +1,7 @@
 <div>
     <main class=" max-w-7xl mx-auto mt-2 overflow-x-hidden ">
         <!--section 1-->
-        <div class="grid grid-cols-2 md:grid-cols-6  gap-2 md:gap-4 w-full h-full md:w-[930px] md:h-[110px] p-2 mx-auto items-center"
+        <div class="grid grid-cols-2 md:grid-cols-6 gap-2 md:gap-4 max-w-7xl h-auto  p-2 mx-auto items-center"
            >
             <!--No 1 -->
             <div
@@ -299,9 +299,9 @@
             </div>
         </div>
         <!--section 2-->
-        <section class="shadow-xl shadow-[0px_4px_4px_0px_#00000040] md:w-[930px] m-2 md:mt-6 h-auto flex flex-col bg-[#fafafa] rounded-2xl  p-2  items-center">
+        <section class="shadow-xl shadow-[0px_4px_4px_0px_#00000040] m-2 md:mt-6 h-auto flex flex-col bg-[#fafafa] rounded-2xl  p-2  items-center">
             <!--header-->
-            <div class="flex flex-col md:flex-row justify-between w-full   h-[52px] mt-1">
+            <div class="flex flex-col md:flex-row justify-between  w-full  h-full mt-1">
                 <div class="hidden md:flex flex-row  gap-2 font-bold ">
                     <!--icon-->
                     <span class="hidden mt-1 md:block">

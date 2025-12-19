@@ -1,6 +1,4 @@
-<div>
-   <div class="max-w-6xl mx-auto">
-
+<div class="max-w-7xl mx-auto">
     <!-- کارت بزرگ -->
     <div class="bf-[#fafafa] rounded-2xl shadow-[0px_4px_4px_0px_#00000040] shadow-xl p-5 mt-3">
         <div class="flex gap-2">
@@ -568,5 +566,4 @@
 
         </div>
     </div>
-
 </div>

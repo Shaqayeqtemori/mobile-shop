@@ -1,6 +1,6 @@
 <div class="overflow-x-hidden">
     <!--section 1 -->
-    <section class="overflow-x-hidden h-[340px] mt-4 p-4 w-[1000px] md:flex bg-[#F5F5F580]/50 rounded-xl" >
+    <section class="overflow-x-hidden h-[340px] mt-4 p-4 max-w-full mx-auto md:flex bg-[#F5F5F580]/50 rounded-xl" >
         <div class="w-full p-2 flex flex-col text-[15px]">
             <!-- title-->
             <span class="my-2 mb-6 font-bold">
@@ -153,8 +153,8 @@
             <!-- buttons-->
             <div class="flex flex-wrap gap-2 md:hidden mt-3 text-sm">
             <!-- button 1 -->
-            <button class="h-[40px] w-full bg-[#0B35CC1A] text-black rounded-xl flex  px-1"
-                style="box-shadow: 0px 4px 4px 0px #00000040, 0 0 0 0 #0B35CC40;">
+                <button class="h-[40px] w-full bg-[#0B35CC1A] text-black rounded-xl flex  px-1"
+                 style="box-shadow: 0px 4px 4px 0px #00000040, 0 0 0 0 #0B35CC40;">
                         <!--icon-->
                         <span class="">
                             <svg width="23" height="25" viewBox="0 0 51 55" fill="none" xmlns="http://www.w3.org/000/svg">
@@ -282,7 +282,7 @@
         </div>
     </section>
     <!--section 1 -->
-    <section class="flex flex-col  h-auto p-4 mt-4 w-[1000px]  bg-[#fafafa] rounded-xl" >
+    <section class="flex flex-col  h-auto p-4 mt-4 max-w-full mx-auto  bg-[#fafafa] rounded-xl" >
         <div class="w-full h-auto p-2 flex flex-row justify-between text-[20px]">
             <div>
                 <!-- title-->

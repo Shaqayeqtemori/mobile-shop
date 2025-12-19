@@ -1,7 +1,7 @@
-<div class="w-full">
+<div >
     <div class="p-4">
-        <div class="md:grid grid-cols-5 gap-4">
-            <div class="col-span-3">
+        <div class="md:grid grid-cols-5 max-w-full mx-auto gap-4">
+            <div class="col-span-3 ">
                 <!-- Table  -->
                 <div class=" rounded-xl shadow-xl shadow-[0px_4px_4px_0px_#00000040]">
                     <div class="bg-[#0948EE0D] rounded-xl p-4">
@@ -446,7 +446,6 @@
         </div>
     </div>
 </div>
-
 <!-- Java Code  -->
 <script>
     function fadeIn(el) {

@@ -12,10 +12,10 @@
                         <div class="flex items-center justify-between relative w-full">
                         <!-- خط‌های بین -->
                         <div class="absolute top-6 left-[calc(16.5%+1.5rem)] right-[calc(50%+3rem)] z-0">
-                            <div class="w-[150px] border-t-2 border-dashed border-gray-400"></div>
+                            <div class="w-16 sm-[150px] border-t-2 border-dashed border-gray-400"></div>
                         </div>
                         <div class="absolute top-6 left-[calc(50%+3rem)] right-[calc(16.5%+1.5rem)] z-0">
-                            <div class="w-[170px] border-t-2 border-dashed border-gray-400"></div>
+                            <div class="w-16 sm-[150px] border-t-2 border-dashed border-gray-400"></div>
                         </div>
                         <!-- مراحل -->
                         <div class="flex flex-col items-center relative z-10 bg-[#FAFAFA]">
@@ -46,7 +46,7 @@
                 <!-- دکمه بازگشت -->
                 <div class="flex justify-center">
                 <a href="{{ route('user.list') }}"
-                    class=" w-[300px] flex justify-center py-2.5 rounded-xl bg-[#FF0000] text-white text-sm sm:text-base font-semibold transition-all duration-200">
+                    class=" w-[300px] flex justify-center py-2.5 hover:scale-105 transition-all duration-300 rounded-xl bg-[#FF0000] text-white text-sm sm:text-base font-semibold transition-all duration-200">
                     بازگشت به صفحه اصلی
                 </a>
                 </div>

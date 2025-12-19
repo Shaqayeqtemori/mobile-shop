@@ -1,7 +1,7 @@
 <div>
-    <div class=" text-gray-800 flex items-center justify-center p-3 sm:p-4">
+    <div class=" text-gray-800 flex max-w-7xl mx-auto items-center justify-center p-3 sm:p-4">
         <!-- باکس اصلی سفید با انیمیشن -->
-        <div class="animate-fade-slide w-full shadow-[0px_4px_4px_0px_#00000040] bg-[#fafafa]  md:w-[600px] lg:w-[900px] bg-white rounded-2xl shadow-xl overflow-hidden flex flex-col lg:flex-row opacity-0 transform translate-y-10">
+        <div class="animate-fade-slide shadow-[0px_4px_4px_0px_#00000040] bg-[#fafafa]  max-w-7xl  bg-white rounded-2xl shadow-xl overflow-hidden flex flex-col lg:flex-row opacity-0 transform translate-y-10">
 
         <!-- ستون فرم -->
         <div class="flex-1 lg:w-5/12 flex items-start justify-center sm:p-4 order-1 lg:order-1 animate-fade-in delay-200">
@@ -99,7 +99,7 @@
                 </a>
                 <a href="{{ url('/customer-Information') }}"
                     class="w-full sm:w-[48%] py-3 rounded-xl bg-[#1100FF] text-white text-base font-semibold flex items-center justify-center hover:scale-105 transition-all duration-300">
-                    مرحله بعدی
+                    ثبت
                 </a>
                 </div>
             </form>
@@ -116,45 +116,42 @@
 
         </div>
     </div>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+    * { font-family: "Vazirmatn", sans-serif !important; }
 
 
-<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-<style>
-  * { font-family: "Vazirmatn", sans-serif !important; }
-
-
-  @keyframes fade-slide {
-    0% { opacity: 0; transform: translateY(30px); }
-    100% { opacity: 1; transform: translateY(0); }
-  }
-  @keyframes fade-in {
-    0% { opacity: 0; transform: scale(0.98); }
-    100% { opacity: 1; transform: scale(1); }
-  }
-  .animate-fade-slide {
-    animation: fade-slide 0.9s ease-out forwards;
-  }
-  .animate-fade-in {
-    animation: fade-in 0.8s ease-out forwards;
-  }
-  .delay-200 { animation-delay: 0.2s; }
-  .delay-300 { animation-delay: 0.3s; }
-  .delay-400 { animation-delay: 0.4s; }
-  .delay-500 { animation-delay: 0.5s; }
+    @keyframes fade-slide {
+        0% { opacity: 0; transform: translateY(30px); }
+        100% { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fade-in {
+        0% { opacity: 0; transform: scale(0.98); }
+        100% { opacity: 1; transform: scale(1); }
+    }
+    .animate-fade-slide {
+        animation: fade-slide 0.9s ease-out forwards;
+    }
+    .animate-fade-in {
+        animation: fade-in 0.8s ease-out forwards;
+    }
+    .delay-200 { animation-delay: 0.2s; }
+    .delay-300 { animation-delay: 0.3s; }
+    .delay-400 { animation-delay: 0.4s; }
+    .delay-500 { animation-delay: 0.5s; }
 
 
-  .input-field {
-    width: 100%;
-    border: 1.5px solid #000000;
-    border-radius: 12px;
-    padding: 0.75rem 0.75rem;
-    text-align: right;
-    transition: all 0.25s ease;
-    outline: none;
-  }
-  .input-field:focus {
-    box-shadow: 0 0 0 3px rgba(17, 0, 255, 0.2);
-  }
-</style>
+    .input-field {
+        width: 100%;
+        border: 1.5px solid #000000;
+        border-radius: 12px;
+        padding: 0.75rem 0.75rem;
+        text-align: right;
+        transition: all 0.25s ease;
+        outline: none;
+    }
+    .input-field:focus {
+        box-shadow: 0 0 0 3px rgba(17, 0, 255, 0.2);
+    }
+    </style>
 </div>

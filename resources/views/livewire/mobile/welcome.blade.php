@@ -1,6 +1,5 @@
 <div>
-    <div>
-    <main class="lg:w-[700px] xl:w-[1050px] xl:-mt-7 lg:h-full xl:h-full mx-auto p-4 sm:p-6 font-yekan">
+    <main class=" max-w-7xl xl:-mt-7 overflow-x-hidden lg:h-full xl:h-full  p-4 sm:pt-4 ">
         <section class="col-span-1 lg:col-span-2 rounded-xl p-4 space-y-4">
             <aside class="col-span-1 space-y-5">
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 p-4">
@@ -387,6 +386,4 @@
             }
         </script>
     </main>
-</div>
-
 </div>
